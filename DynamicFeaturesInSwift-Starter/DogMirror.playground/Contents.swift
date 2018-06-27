@@ -58,8 +58,6 @@ debugPrint("Printing a net: \(net)")
 debugPrint("Printing a date: \(Date())")
 print()
 
-//net.dog = Dog() // ☆ Uncomment out assigning the dog
-
 // Simple output customization for the DogCatcherNet type.
 
 // MARK: - CustomDebugStringConvertible
@@ -74,6 +72,8 @@ print()
 // More advanced output customization for the type and its properties.
 
 // ☆ Create log function here
+
+//net.dog = Dog() // ☆ Uncomment out assigning the dog
 
 // ☆ Log out the net and a Date object here
 
