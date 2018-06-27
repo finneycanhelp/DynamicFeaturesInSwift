@@ -46,7 +46,6 @@ class DogCatcherNet {
   let weightInPounds: Double
   // ☆ Add Optional called dog of type Dog here
 
-  // ☆ Add Optional called dog of type Dog here with nil default
   init(stars: CustomerReviewStars, weight: Double) {
     customerReviewStars = stars
     weightInPounds = weight

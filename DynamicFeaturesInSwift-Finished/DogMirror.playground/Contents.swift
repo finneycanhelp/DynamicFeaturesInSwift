@@ -46,10 +46,9 @@ class DogCatcherNet {
   let weightInPounds: Double
   var dog: Dog?
 
-  init(stars: CustomerReviewStars, weight: Double, dog: Dog? = nil) {
+  init(stars: CustomerReviewStars, weight: Double) {
     customerReviewStars = stars
     weightInPounds = weight
-    self.dog = dog
   }
 }
 
