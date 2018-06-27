@@ -53,12 +53,12 @@ class DogCatcherNet {
   }
 }
 
-//net.dog = Dog() // ☆ Uncomment out assigning the dog
-
 let net = DogCatcherNet(stars: .two, weight: 2.6)
 debugPrint("Printing a net: \(net)")
 debugPrint("Printing a date: \(Date())")
 print()
+
+//net.dog = Dog() // ☆ Uncomment out assigning the dog
 
 // Simple output customization for the DogCatcherNet type.
 
