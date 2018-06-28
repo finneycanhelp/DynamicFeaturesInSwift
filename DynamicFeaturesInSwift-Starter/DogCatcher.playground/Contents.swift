@@ -114,6 +114,5 @@ let catcher = JSONDogCatcher.init(dictionary: json)
 let messyName: String = catcher["owner"]?["name"]?.value() ?? ""
 print("Owner's name extracted in a less readable way is \(messyName).")
 
-// ☆ Use dot notation to get the owner's name through the catcher.
-
-// ☆ Use dot notation to get the speed through the catcher.
+// ☆ Use dot notation to get the owner's name and speed through the
+// catcher.
